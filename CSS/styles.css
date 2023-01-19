@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position: static;
+    display: block;
+    width: auto;
+    height: auto;
+    min-height: 900px;
+    background: linear-gradient(108deg, rgba(237, 199, 183, 0.40), rgba(237, 199, 183, 0.40)), url(../Img/pexel1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: fill;
+    
+    z-index: 1;
+
+}
+
+#navbar {
+    background-color: #123c69;
+}
+
+#title {
+    color: #bab2b5;
+    font-family: 'Rubik Vinyl', cursiv;
+    font-size: 4vmin;
+    word-spacing: 3px;
+}
+
+#id {
+    color: rgb(237, 199, 183);
+}
+
+#word_display {
+    font-family: 'Libre Baskerville', sans-serif;
+}
+
+#definition {
+    font-weight: 500;
+}
+
+#searched_word {
+    background-color: #eee2dc;
+    color: #123c69;
+    outline: none;
+    border: none;
+    box-shadow: none;
+
+}
+
+#searched_word:focus {
+    background-color: #eee2dc;
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+#search_button {
+    color: #ac3b61;
+    border: 1px solid #ac3b61;
+    margin-right: 70px;
+    margin-left: 10px;
+}
+
+#search_button:hover {
+    background-color: #ac3b61;
+    color: #eee2dc;
+}
+
+#contact_author {
+    border: 1px solid black;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #ac3b61;
+    border: none;
+}
+
+#contact_author:hover {
+    background-color: #ac3b61;
+    box-shadow: 3px 3px 10px black;
+}
+
+#contribute_btn {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#contribute_btn:hover {
+    color: #eee2dc;
+    box-shadow: 3px 3px 10px black;
+}
+
+.heart {
+    color: #ac3b61;
+}
+
+
